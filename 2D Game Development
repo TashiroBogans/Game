@@ -1,0 +1,27 @@
+Cinnamoroll = Actor('character')
+Cinnamoroll.pos = 100, 50
+
+WIDTH = 500
+HEIGHT = 300
+
+character_frame = 1
+
+def draw():
+    screen.clear()
+    Cinnamoroll.draw()
+
+def update():
+    Cinnamoroll.left = Cinnamoroll.left + 2
+    character_frame = character_frame + 1
+    if character_frame = 1:
+        character.image = 'character1'
+    elif character_frame = 2:
+        character.image = 'character2'
+    elif character_frame = 3:
+          character.image = 'character3'
+    elif 4 character_frame =4:
+            character.image = 'character4'
+    elif 5 character_frame = 5:
+            character.image = 'character5'
+    else:
+        character_frame = 1
